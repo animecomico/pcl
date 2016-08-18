@@ -42,6 +42,9 @@
 #include <stdexcept>
 
 #include <pcl/surface/on_nurbs/nurbs_solve.h>
+#ifdef _WIN32
+#include <time.h>
+#endif
 
 using namespace std;
 using namespace pcl;
